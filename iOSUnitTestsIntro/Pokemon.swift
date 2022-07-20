@@ -16,6 +16,22 @@ class Pokemon {
         self.type = type
         self.attackType = attackType
     }
+    
+    func attack(enemy: Pokemon) {
+        var damage = 30
+        
+        if enemy.type == .Fire && attackType == .Water {
+            damage = 60
+
+        }
+        if enemy.type == .Water && attackType == .Fire {
+            damage = 10
+
+        }
+        enemy.health = enemy.health - damage
+
+    }
+
 }
 
 enum PokemonType {
@@ -30,19 +46,6 @@ enum PokemonAttackType {
     case Water
 }
 
-func attack(enemy: Pokemon) {
-    var damage = 30
-    
-    if enemy.type == .Fire && .attackType == .Water {
-        damage = 60
-    }
-    if enemy.attackType == .Water && .attackType == .Fire {
-        damage = 10
-    }
-    
-    enemy.health = enemy.health - damage
-    
-}
 
 
 

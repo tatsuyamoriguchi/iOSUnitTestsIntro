@@ -16,6 +16,8 @@
 		8C1AFA822887663C0048E852 /* iOSUnitTestsIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1AFA812887663C0048E852 /* iOSUnitTestsIntroTests.swift */; };
 		8C1AFA8D2887663C0048E852 /* iOSUnitTestsIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1AFA8C2887663C0048E852 /* iOSUnitTestsIntroUITests.swift */; };
 		8C1AFA9E288766AA0048E852 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1AFA9D288766AA0048E852 /* Pokemon.swift */; };
+		8C1AFAC728878D420048E852 /* PokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1AFAAA28877F830048E852 /* PokemonTests.swift */; };
+		8C1AFACB28878D620048E852 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1AFA9D288766AA0048E852 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 		8C1AFA8C2887663C0048E852 /* iOSUnitTestsIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSUnitTestsIntroUITests.swift; sourceTree = "<group>"; };
 		8C1AFA8E2887663C0048E852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C1AFA9D288766AA0048E852 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8C1AFAAA28877F830048E852 /* PokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 		8C1AFA802887663C0048E852 /* iOSUnitTestsIntroTests */ = {
 			isa = PBXGroup;
 			children = (
+				8C1AFAAA28877F830048E852 /* PokemonTests.swift */,
 				8C1AFA812887663C0048E852 /* iOSUnitTestsIntroTests.swift */,
 				8C1AFA832887663C0048E852 /* Info.plist */,
 			);
@@ -272,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1AFACB28878D620048E852 /* Pokemon.swift in Sources */,
 				8C1AFA822887663C0048E852 /* iOSUnitTestsIntroTests.swift in Sources */,
+				8C1AFAC728878D420048E852 /* PokemonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
